@@ -1,0 +1,30 @@
+#contenedor
+{
+	width:100%;
+}
+#cuadro1
+{
+	float: left;
+	width: 24%; 
+	padding: 2%;
+}
+#cuadro2
+{
+	float: left;
+	width: 25%;
+	padding-left: 6%;
+	padding-top: 2%;
+}
+#cuadro3
+{
+	float: left;
+	width: 23%;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+#cuadro4
+{
+	float: left;
+	width: 28%;
+	padding: 2%;
+}

@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <title>PronaPharma</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 
     <link rel="icon" type="image/ico" sizes="32x32" href="images/ico/fav32.ico">
     <link rel="icon" type="image/ico" sizes="48x48" href="images/ico/fav48.ico">
@@ -16,6 +16,7 @@
 
     <link href="css/slider/animacion_imagenes.css" type="text/css" media="all" rel="stylesheet" />
     <link href="css/slider/styles.css" type="text/css" media="all" rel="stylesheet" />
+
     
     <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -35,6 +36,7 @@
     <!-- Main Styles -->
     <link rel="stylesheet" href="css/templatemo_style.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylefooter.css">
 
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
@@ -44,7 +46,7 @@
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
     
-<div id="contenedor">
+
     <div id="responsive-menu">
         <ul class="menu-holder">
             <li><a href="index.html"><i class="fa fa-home"></i>Inicio</a></li>
@@ -128,14 +130,15 @@
     </div>
 
     <!-- FOOTER -->
+    <div id="contenedor">
     <footer class="site-footer">
-        <div style="float: left; width: 24%; padding: 2%;">
+        <div id="cuadro1">
             <p id="titulos_footer">TWITER</p>
             <br>
                 <a class="twitter-timeline" href="https://twitter.com/pronapharma" data-widget-id="608465236341981185">Tweets por el @pronapharma.</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
-        <div style="float: left; width: 25%; padding-left: 6%; padding-top: 2%;">
+        <div id="cuadro2">
             <p id="titulos_footer">CONTACTO</p>
             <p id="contenido_footer">Medellin</p>
             <p id="contenido_footer">Calle 4 Sur # 43A-195</p>
@@ -144,7 +147,7 @@
             <br>
             <a id="contenido_footer">INFO@PRONAPHARMA.COM</a>
         </div>
-        <div style="float: left; width: 23%; padding-left: 10%; padding-top: 2%;">
+        <div id="cuadro3">
             <p id="titulos_footer">SIGUENOS</p>
                 <ul class="social-top">
                     <li><a id="redes" href="https://www.facebook.com/pronapharma" target="_Blanck"><i class="fa fa-facebook"></i><span class="hidden-xs">Facebook</span></a></li>
@@ -152,7 +155,7 @@
                 </ul>
         </div>
 
-	<div style="float: left; width: 28%; padding: 2%;">
+	<div id="cuadro4">
                  <img id="logo" src="images/chicas-Pronapharma-acop.png" alt="PronaPharma">
         </div>
     </footer> <!-- .site-footer -->
