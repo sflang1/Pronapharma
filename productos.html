@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <title>PronaPharma</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 
     <link rel="icon" type="image/ico" sizes="32x32" href="images/ico/fav32.ico">
     <link rel="icon" type="image/ico" sizes="48x48" href="images/ico/fav48.ico">
@@ -41,7 +41,7 @@
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/component.css" />
         <script src="js/modernizr.custom.js"></script>
-
+    <link rel="stylesheet" href="css/stylefooter.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 </head>
@@ -49,7 +49,7 @@
     <!--[if lt IE 7]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    
+    <div id="contenedor2">
 
     <div id="responsive-menu">
         <ul class="menu-holder">
@@ -305,33 +305,37 @@
 
 
 
-    <footer class="site-footer">
-        <div style="float: left; width: 30%; padding: 2%;">
-            <p id="titulos_footer">TWITER</p>
-            <br>
-                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/PabloSanjuanM" data-widget-id="605897430270242816">Tweets por el @PabloSanjuanM.</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-        <div style="float: left; width: 30%; padding-left: 10%; padding-top: 2%;">
-            <p id="titulos_footer">CONTACTO</p>
-            <p id="contenido_footer">BOGOTA</p>
-            <p id="contenido_footer">Calle 69A # 94-80</p>
-            <p id="contenido_footer">743 8134 / (1) - 743 8135</p>
-            <p id="contenido_footer">743 8134 / (1) - 743 8135</p>
-            <p id="contenido_footer">743 8134 / (1) - 743 8135</p>
-            <br>
-            <a id="contenido_footer">INFO@PRONAPHARMA.COM</a>
-        </div>
-        <div style="float: right; width: 30%; padding: 2%;">
-            <p id="titulos_footer">SIGUENOS</p>
-                <ul class="social-top">
-                    <li><a href="#"><i class="fa fa-facebook"></i><span class="hidden-xs">Facebook</span></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i><span class="hidden-xs">Twitter</span></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i><span class="hidden-xs">Instagram</span></a></li>
-                </ul>
-        </div>
-
-    </footer> 
+    <div id="contenedor">
+        
+                <footer class="site-footer">
+                    <div id="cuadro1">
+                        <p id="titulos_footer">TWITER</p>
+                        <br>
+                        <a class="twitter-timeline" href="https://twitter.com/pronapharma" data-widget-id="608465236341981185">Tweets por el @pronapharma.</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                    <div id="cuadro2">
+                        <p id="titulos_footer">CONTACTO</p>
+                        <p id="contenido_footer">Medellin</p>
+                        <p id="contenido_footer">Calle 4 Sur # 43A-195</p>
+                        <p id="contenido_footer">Oficina 117, El Centro Ejecutivo</p>
+                        <p id="contenido_footer">(4) - 3540375</p>
+                        <br>
+                        <a id="contenido_footer">INFO@PRONAPHARMA.COM</a>
+                    </div>
+                    <div id="cuadro3">
+                        <p id="titulos_footer">SIGUENOS</p>
+                            <ul class="social-top">
+                                <li><a id="redes" href="https://www.facebook.com/pronapharma" target="_Blanck"><i class="fa fa-facebook"></i><span class="hidden-xs">Facebook</span></a></li>
+                                <li><a id="redes" href="https://twitter.com/pronapharma" target="_Blanck"><i class="fa fa-twitter"></i><span class="hidden-xs">Twitter</span></a></li>
+                            </ul>
+                    </div>
+                    <div id="cuadro4">
+                                 <img id="logo" src="images/chicas-Pronapharma-acop.png" alt="PronaPharma">
+                    </div>
+                    </footer> <!-- .site-footer -->
+             
+    </div> 
     
 
    <script src="js/vendor/jquery-1.10.1.min.js"></script>
@@ -356,5 +360,6 @@
             });
         });
     </script>
+</div>
 </body>
 </html>
