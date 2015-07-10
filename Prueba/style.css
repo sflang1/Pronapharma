@@ -1,3 +1,37 @@
+body
+{
+	background: white;
+}
+#first-content{
+	
+	height: 25%;
+	position: fixed;
+	width: 100%;
+	z-index:1;
+}
+#contenido
+{
+	width: 100%;
+	padding-left:5%;
+	padding-right: 5%;
+	text-align: center;
+	box-sizing:border-box;
+}
+#imgTitle
+{
+	padding-left: 15%;
+	
+}
+#logo
+{
+	padding-top: 3%;
+	width: 12%;
+	height:auto;
+}
+#page{
+	position: relative;
+	top: 25%;
+}
 .imgPrueba
 {
 	width:100%;
@@ -8,20 +42,12 @@
 {
 	width:100%;
 	display: block;
-	padding-left: 0%;
-	
-}
-#logo
-{
-	width: 100%;
-	height: auto;
 }
 #contenedor2
 {
 	width: 100%;
-	padding-left: 13%;
-	padding-right: 13%;
-	box-sizing:border-box;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 #cuadro1
 {
@@ -59,6 +85,17 @@
 }
 @media screen and (max-width: 650px)
 {
+	#first-content
+	{
+		height: 15%;
+		position: fixed;
+		width: 100%;
+		z-index:1;
+	}
+	#page{
+	position: relative;
+	top: 15%;
+	}
 	#contenedor
 	{
 		
@@ -69,11 +106,6 @@
 		padding-left:5%;
 		padding-right:5%;
 		box-sizing:border-box;
-	}
-	#logo
-	{	
-		width: 70%;
-		height: auto;
 	}
 	#cuadro2
 	{
@@ -103,6 +135,17 @@
 	{
 		
 	}
+	#first-content
+	{
+		height: 8%;
+		position: fixed;
+		width: 100%;
+		z-index:1;
+	}
+	#page{
+	position: relative;
+	top: 8%;
+	}
 	#cuadro1
 	{
 		width: 100%;
@@ -119,14 +162,14 @@
 	}
 	#cuadro3
 	{
-		width: 40%;
+		width: 80%;
 		padding-left:5%;
 		padding-right:5%;
 		box-sizing:border-box;
 	}
 	#cuadro4
 	{
-		width: 60%;
+		width: 20%;
 		padding-left:5%;
 		padding-right:5%;
 		box-sizing:border-box;
